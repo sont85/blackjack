@@ -1,0 +1,22 @@
+body {
+  background: $background;
+}
+.card{
+  @include card;
+}
+#dealerPoint,
+#playerPoint {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  min-width: 100px
+}
+
+.scoreBoard {
+  @include score();
+}

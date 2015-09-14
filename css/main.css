@@ -1,0 +1,31 @@
+body {
+  background: radial-gradient(#dde5ff, #9ba0b2); }
+
+.card {
+  border: 2px solid black;
+  background: radial-gradient(#66A3c2, #94bfd4);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 70px 10px;
+  min-width: 100px;
+  word-wrap: break-word;
+  margin-right: 8px; }
+
+#dealerPoint,
+#playerPoint {
+  color: red; }
+
+.hidden {
+  display: none; }
+
+.btn {
+  min-width: 100px; }
+
+.scoreBoard {
+  border: 2px solid black;
+  background: radial-gradient(#dde5ff, #9ba0b2);
+  display: inline-block;
+  padding: 10px;
+  color: #Eee; }
+
+/*# sourceMappingURL=main.css.map */

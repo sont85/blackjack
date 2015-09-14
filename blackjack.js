@@ -218,7 +218,7 @@ $(document).ready(function() {
 			}
 		}
 		roundOver = true;
-		
+
 		//replenish deck under 11 cards
 		if (deck.length < 11) {
 			alert("deck replenished");

@@ -1,0 +1,18 @@
+@mixin score() {
+  border: 2px solid black;
+  background: $background;
+  display: inline-block;
+  padding: 10px;
+  color: #Eee;
+}
+
+@mixin card() {
+  border: 2px solid black;
+  background: $cardBackground;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 70px 10px;
+  min-width: 100px;
+  word-wrap: break-word;
+  margin-right: 8px;
+}
